@@ -9,9 +9,7 @@ pipeline {
     }
     post {
         always {
-            perfReport(sourceDataFiles: 'TEST.xml', compareBuildPrevious: true,
-                    excludeResponseTime: true, modePerformancePerTestCase: true,
-                    showTrendGraphs: true)
+            perfReport compareBuildPrevious: true, filterRegex: '', modeEvaluation: true, modeOfThreshold: true, relativeFailedThresholdNegative: 0.0, relativeFailedThresholdPositive: -70.0, relativeUnstableThresholdNegative: 0.0, relativeUnstableThresholdPositive: -30.0, sourceDataFiles: 'TEST.xml'
         }
     }
 }
