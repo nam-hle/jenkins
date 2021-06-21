@@ -9,7 +9,7 @@ pipeline {
     }
     post {
         always {
-            perfReport compareBuildPrevious: true, modeOfThreshold: true, persistConstraintLog: true, relativeFailedThresholdPositive: 80.0, relativeUnstableThresholdNegative: -50.0, relativeUnstableThresholdPositive: 50.0, showTrendGraphs: true, sourceDataFiles: 'TEST.xml'
+            perfReport compareBuildPrevious: true, modeOfThreshold: true, persistConstraintLog: true, relativeFailedThresholdPositive: 70.0, relativeUnstableThresholdNegative: -50.0, relativeUnstableThresholdPositive: 40.0, sourceDataFiles: 'TEST.xml'
         }
     }
 }
