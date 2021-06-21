@@ -1,0 +1,6 @@
+<testsuite name="Performance test" tests="4" failures="0" errors="0" skipped="0" timestamp="Mon Jun 21 2021 11:31:45 GMT+0700 (Giờ Đông Dương)" time="3.869">
+<testcase classname="init-default" name="should run properly" time="2.084" />
+<testcase classname="init-200" name="should run properly" time="6.818" />
+<testcase classname="collapse-100" name="should run properly" time="0.90367" />
+<testcase classname="collapse-300" name="should run properly" time="1.787" />
+</testsuite>

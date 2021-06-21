@@ -9,7 +9,7 @@ pipeline {
     }
     post {
         always {
-            perfReport 'TEST-tree-engine.xml'
+            perfReport 'TEST.xml'
         }
     }
 }
