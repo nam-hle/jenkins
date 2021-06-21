@@ -9,7 +9,7 @@ pipeline {
     }
     post {
         always {
-            perfReport compareBuildPrevious: true, filterRegex: '', modeEvaluation: true, modeOfThreshold: true, relativeFailedThresholdNegative: 0.0, relativeFailedThresholdPositive: -70.0, relativeUnstableThresholdNegative: 0.0, relativeUnstableThresholdPositive: -30.0, sourceDataFiles: 'TEST.xml'
+            perfReport compareBuildPrevious: true, filterRegex: '', modeOfThreshold: true, persistConstraintLog: true, relativeFailedThresholdNegative: 0.0, relativeFailedThresholdPositive: 80.0, relativeUnstableThresholdNegative: -50.0, relativeUnstableThresholdPositive: 50.0, showTrendGraphs: true, sourceDataFiles: 'TEST.xml'
         }
     }
 }
