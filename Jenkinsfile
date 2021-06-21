@@ -9,7 +9,9 @@ pipeline {
     }
     post {
         always {
-            perfReport sourceDataFiles: 'TEST.xml', compareBuildPrevious: true, excludeResponseTime: true, modePerformancePerTestCase: true, showTrendGraphs: true
+            perfReport(sourceDataFiles: 'TEST.xml', compareBuildPrevious: true,
+                    excludeResponseTime: true, modePerformancePerTestCase: true,
+                    showTrendGraphs: true)
         }
     }
 }

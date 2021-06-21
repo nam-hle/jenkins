@@ -1,16 +1,11 @@
-<testsuite name="Performance test" tests="4" failures="0" errors="0" skipped="0" timestamp="Mon Jun 21 2021 13:35:35 GMT+0700 (Giờ Đông Dương)" time="3.869">
-<testcase classname="init-default" time="1.574" />
-<testcase classname="init-default" time="1.607" />
-<testcase classname="init-default" time="1.677" />
-<testcase classname="init-default" time="1.733" />
-<testcase classname="init-default" time="1.821" />
-<testcase classname="init-200" time="4.784" />
-<testcase classname="init-200" time="4.829" />
-<testcase classname="init-200" time="5.361" />
-<testcase classname="collapse-100" time="0.688" />
-<testcase classname="collapse-100" time="0.715" />
-<testcase classname="collapse-100" time="0.688" />
-<testcase classname="collapse-300" time="1.629" />
-<testcase classname="collapse-300" time="1.749" />
-<testcase classname="collapse-300" time="1.882" />
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="Performance test" tests="2" failures="0" errors="0" skipped="0" timestamp="Mon Jun 21 2021 14:46:32 GMT+0700 (Giờ Đông Dương)">
+<testcase classname="init-default" time="1.517" />
+<testcase classname="init-default" time="1.527" />
+<testcase classname="init-default" time="1.684" />
+<testcase classname="init-default" time="1.656" />
+<testcase classname="init-default" time="1.601" />
+<testcase classname="init-200" time="4.709" />
+<testcase classname="init-200" time="4.675" />
+<testcase classname="init-200" time="5.109" />
 </testsuite>
