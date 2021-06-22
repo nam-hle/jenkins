@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite name="Performance test" tests="2" failures="0" errors="0" skipped="0" timestamp="Mon Jun 21 2021 14:46:32 GMT+0700 (Giờ Đông Dương)">
-<testcase classname="init-default" time="1.517" />
-<testcase classname="init-default" time="1.527" />
-<testcase classname="init-default" time="1.684" />
-<testcase classname="init-default" time="1.656" />
-<testcase classname="init-default" time="1.800" />
-<testcase classname="init-200" time="4.709" />
-<testcase classname="init-200" time="4.675" />
-<testcase classname="init-200" time="5.109" />
+<testsuite name="Performance test" tests="2" failures="0" errors="0" skipped="0" timestamp="Tue Jun 22 2021 11:26:31 GMT+0700 (Giờ Đông Dương)">
+    <testcase classname="init" name="default" time="2.069" />
+    <testcase classname="init" name="default" time="1.939" />
+    <testcase classname="init" name="default" time="2.249" />
+    <testcase classname="init" name="400-nodes" time="6.474" />
+    <testcase classname="init" name="400-nodes" time="6.138" />
+    <testcase classname="init" name="400-nodes" time="7.04" />
+    <testcase classname="init" name="400-nodes" time="6.523" />
+    <testcase classname="init" name="400-nodes" time="6.151" />
+    <testcase classname="init" name="200-nodes" time="4.927" />
+    <testcase classname="init" name="200-nodes" time="4.963" />
+    <testcase classname="init" name="200-nodes" time="5.166" />
+    <testcase classname="collapse-node" name="100-nodes" time="0.751" />
+    <testcase classname="collapse-node" name="100-nodes" time="0.987" />
+    <testcase classname="collapse-node" name="100-nodes" time="1.059" />
+    <testcase classname="collapse-node" name="300-nodes" time="1.722" />
+    <testcase classname="collapse-node" name="300-nodes" time="1.639" />
+    <testcase classname="collapse-node" name="300-nodes" time="1.735" />
 </testsuite>
